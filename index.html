@@ -1,40 +1,550 @@
 <!DOCTYPE html>
 <html>
-		<head>
-			<title>Home</title>
-		    <meta charset="utf-8">	
-		    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-			<link rel="stylesheet" type="text/css" href="css/animat.css">
-			<link rel="stylesheet" type="text/css" href="css/estilo.css">
-			<link rel="stylesheet" type="text/css" href="css/grid.css">
-			<link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">			    
-		</head>
-		<header class="barra_do_header">
-			<div class="cardapio_logo">Nome do Cardápio Digital</div><div class="cardapio_logo_2">Cardápio Digital</div>
-		</header>
-	<body class="conteudo">		
-			<div class="corpo">
-					<div class="titulo">Ofereça um qr code para seus clientes acessarem o cardápio</div>
+	<head>
+	    <title>Home</title>
+		<meta charset="utf-8">	
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+		<link rel="stylesheet" type="text/css" href="css/grid.css">
+		<link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+	</head>
 
-			<div class="container">
-				<div class=" galeria_1">
-					<div class="sub_titulo_img">Peixes</div>
- 					<a href="html/mais_hulk.html"><img src="imagens/hulk_capa_index.png" class="circulo"></a>	
- 				</div>	
+	<header class="barra_do_header">
+		<div class="cardapio_logo">Restaurante Nossa Casa</div><div class="cardapio_logo_2">Cardápio Digital</div>
+	</header>
+
+	<body class="conteudo">		
+		<div class="corpo">
+			<div class="titulo">Ofereça um qr code para seus clientes acessarem o cardápio</div>
+
+		 
+			<div class=" galeria_1">
+				<div class="sub_titulo_img"id="volta_especialidades">Especialidades</div>
+ 				<a href="#especialidades"><img src="imagens/especialidades.png" class="circulo"></a>		
+ 			</div>	
+	 	
+	 		 <div class="galeria_1">
+				<div class="sub_titulo_img"id="volta_porcoes">Porções</div>
+ 				<a href="#porcoes"><img src="imagens/porcoes.png" class="circulo"></a>		
+ 			</div>
+
+ 			 <div class="galeria_1">
+				<div class="sub_titulo_img"id="volta_acompanhamentos">Acompanhamentos</div>
+ 				<a href="#acompanhamentos"><img src="imagens/acompanhamentos.png" class="circulo"></a>		
+ 			</div>
+ 				
+
+ 			 <div class="galeria_1">
+				<div class="sub_titulo_img"id="volta_saladas">Saladas</div>
+ 				<a href="#saladas"><img src="imagens/saladas.png" class="circulo"></a>		
+ 			</div>
+
+ 			<div class="galeria_1">
+				<div class="sub_titulo_img"id="volta_peixes">Peixes</div>
+ 				<a href="#peixes"><img src="imagens/peixes.png" class="circulo"></a>		
  			</div>	
 
- 			<div class="container">
-				<div class=" galeria_1">
-					<div class="sub_titulo_img">Peixes</div>
- 					<a href="html/mais_hulk.html"><img src="imagens/hulk_capa_index.png" class="circulo"></a>		
- 				</div>	
-			</div>
-		</div>
+ 			<div class="galeria_1">
+				<div class="sub_titulo_img"id="volta_carnes">Carnes</div>
+ 				<a href="#carnes"><img src="imagens/carnes.png" class="circulo"></a>		
+ 			</div>
+
+ 			 <div class="galeria_1">
+				<div class="sub_titulo_img"id="volta_massas">Massas</div>
+ 				<a href="#massas"><img src="imagens/massas.png" class="circulo"></a>		
+ 			</div>	
+
+ 			<div class="galeria_1">
+				<div class="sub_titulo_img"id="volta_pizzas">Pizzas</div>
+ 				<a href="#pizzas"><img src="imagens/pizzas.png" class="circulo"></a>		
+ 			</div>	
+
+ 			 <div class="galeria_1">
+				<div class="sub_titulo_img"id="volta_lanches">Lanches</div>
+ 				<a href="#lanches"><img src="imagens/lanches.png" class="circulo"></a>		
+ 			</div>	
+
+ 		    <div class="galeria_1">
+				<div class="sub_titulo_img"id="volta_sobremesas">Sobremesas</div>
+ 				<a href="#sobremesas"><img src="imagens/sobremesas.png" class="circulo"></a>		
+ 			</div>	
+
+ 			<div class="galeria_1">
+				<div class="sub_titulo_img"id="volta_sorvetes">Sorvetes</div>
+ 				<a href="#sorvetes"><img src="imagens/sorvetes.png" class="circulo"></a>	
+ 			</div>
+
+ 			 <div class="galeria_1">
+				<div class="sub_titulo_img"id="volta_bebidas">Bebidas</div>
+ 				<a href="#bebidas"><img src="imagens/bebidas.png" class="circulo"></a>		
+ 			</div>		
  			
- 			<script src="js/jquery.js"></script>
-		   <script src="js/menu_lateral.js"></script> 
-		   <script src="js/slide.js"></script> 
+ 			<br><br><br>
+ 		</div>
+ 		<div class="corpo">					
+			<div class="titulo">Cardápio</div>	
+
+			<div class="conteudo_do_cardapio">
+
+
+					<div class="sub_titulo" id="especialidades"><a href="#volta_especialidades">Especialidades</a></div><hr>
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Lula à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Camarão R$ 25,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Camarão à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, baclhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Lula à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, baclhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Camarão R$ 25,00
+					<div class="texto_do_cardapio"></div><hr>
+
+					Camarão à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Lula à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Camarão R$ 25,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Camarão à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+
+
+					<div class="sub_titulo"id="porcoes"><a href="#volta_porcoes">Porções</a></div><hr>
+
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Lula à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Camarão R$ 25,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Camarão à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, baclhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Lula à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, baclhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Camarão R$ 25,00
+					<div class="texto_do_cardapio"></div><hr>
+
+					Camarão à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Lula à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Camarão R$ 25,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Camarão à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+
+
+					<div class="sub_titulo"id="acompanhamentos"><a href="#volta_acompanhamentos">Acompanhamentos</a></div><hr>
+
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Lula à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Camarão R$ 25,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Camarão à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, baclhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Lula à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, baclhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Camarão R$ 25,00
+					<div class="texto_do_cardapio"></div><hr>
+
+					Camarão à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Lula à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Camarão R$ 25,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Camarão à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+
+
+					<div class="sub_titulo"id="saladas"><a href="#volta_saladas">Saladas</a></div><hr>
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Lula à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Camarão R$ 25,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Camarão à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, baclhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Lula à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, baclhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Camarão R$ 25,00
+					<div class="texto_do_cardapio"></div><hr>
+
+					Camarão à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Lula à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Camarão R$ 25,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Camarão à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+
+
+					<div class="sub_titulo"id="peixes"><a href="#volta_peixes">Peixes</a></div><hr>
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Lula à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Camarão R$ 25,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Camarão à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, baclhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Lula à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, baclhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Camarão R$ 25,00
+					<div class="texto_do_cardapio"></div><hr>
+
+					Camarão à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Lula à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Camarão R$ 25,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Camarão à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+
+
+					<div class="sub_titulo"id="carnes"><a href="#volta_carnes">Carnes</a></div><hr>
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Lula à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Camarão R$ 25,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Camarão à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, baclhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Lula à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, baclhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Camarão R$ 25,00
+					<div class="texto_do_cardapio"></div><hr>
+
+					Camarão à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Lula à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Camarão R$ 25,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Camarão à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+
+
+                    <div class="sub_titulo"id="massas"><a href="#volta_massas">Massas</a></div><hr>
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Lula à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Camarão R$ 25,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Camarão à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, baclhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Lula à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, baclhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Camarão R$ 25,00
+					<div class="texto_do_cardapio"></div><hr>
+
+					Camarão à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Lula à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Camarão R$ 25,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Camarão à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+
+
+					<div class="sub_titulo"id="pizzas"><a href="#volta_pizzas">Pizzas</a></div><hr>
+					>Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Lula à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Camarão R$ 25,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Camarão à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, baclhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Lula à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, baclhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Camarão R$ 25,00
+					<div class="texto_do_cardapio"></div><hr>
+
+					Camarão à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Lula à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Camarão R$ 25,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Camarão à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+
+
+					<div class="sub_titulo"id="lanches"><a href="#volta_lanches">Lanches</a></div><hr>
+					>Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Lula à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Camarão R$ 25,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Camarão à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, baclhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Lula à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, baclhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Camarão R$ 25,00
+					<div class="texto_do_cardapio"></div><hr>
+
+					Camarão à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Lula à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Camarão R$ 25,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Camarão à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>	
+
+
+
+					<div class="sub_titulo"id="sobremesas"><a href="#volta_sobremesas">Sobremesas</a></div><hr>
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Lula à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Camarão R$ 25,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Camarão à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, baclhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Lula à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, baclhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Camarão R$ 25,00
+					<div class="texto_do_cardapio"></div><hr>
+
+					Camarão à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Lula à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Camarão R$ 25,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Camarão à Milaneza R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+					Bolinho de Bacalhau R$ 30,00
+					<div class="texto_do_cardapio">porção com 10 unidades, bacalhau, azeitonas e tempero verde</div><hr>
+
+
+
+					<div class="sub_titulo"id="sorvetes"><a href="#volta_sorvetes">Sorvetes</a></div><hr>
+					Bolinho de Bacalhau R$ 30,00<hr>
+					Lula à Milaneza R$ 30,00<hr>
+					Bolinho de Camarão R$ 25,00<hr>
+					Camarão à Milaneza R$ 30,00<hr>
+					Bolinho de Bacalhau R$ 30,00<hr>
+					Lula à Milaneza R$ 30,00<hr>
+					Bolinho de Camarão R$ 25,00<hr>
+					Camarão à Milaneza R$ 30,00<hr>
+					Bolinho de Bacalhau R$ 30,00<hr>
+					Lula à Milaneza R$ 30,00<hr>
+					Bolinho de Camarão R$ 25,00<hr>
+					Camarão à Milaneza R$ 30,00<hr>
+					Bolinho de Bacalhau R$ 30,00<hr>
+
+
+					<div class="sub_titulo"id="bebidas"><a href="#volta_bebidas">Bebidas</a></div><hr>
+					Bolinho de Bacalhau R$ 30,00<hr>
+					Lula à Milaneza R$ 30,00<hr>
+					Bolinho de Camarão R$ 25,00<hr>
+					Camarão à Milaneza R$ 30,00<hr>
+					Bolinho de Bacalhau R$ 30,00<hr>
+					Lula à Milaneza R$ 30,00<hr>
+					Bolinho de Camarão R$ 25,00<hr>
+					Camarão à Milaneza R$ 30,00<hr>
+					Bolinho de Bacalhau R$ 30,00<hr>
+					Lula à Milaneza R$ 30,00<hr>
+					Bolinho de Camarão R$ 25,00<hr>
+					Camarão à Milaneza R$ 30,00<hr>
+					Bolinho de Bacalhau R$ 30,00<hr>		
+
+
+			</div>
+ 		</div>
 	</body>
+
 		<footer class="barra_do_footer">
 			<div class="conteudo_do_footer">
 				Restaurante Nossa Casa<br>
@@ -42,8 +552,4 @@
 				São Paulo-SP<br>
 			</div>	
 		</footer>
-		
-		
-		
-		
 </html>
