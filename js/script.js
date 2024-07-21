@@ -8,8 +8,3 @@ clipboard.on('success', function(e) {
 clipboard.on('error', function(e) {
     alert("Falha ao copiar")
 });
-
-$(".botao").click(function() {
-  swal("Mensagem!xxxxxxxxxx");
-});
-
