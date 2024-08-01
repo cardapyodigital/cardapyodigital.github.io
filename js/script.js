@@ -2,7 +2,7 @@
 const clipboard = new ClipboardJS('.botao')
 
 clipboard.on('success', function(e) {
-    alert("adicionar ao pedido")
+    alert("copiado com sucesso, adicione ao pedido")
 });
 
 clipboard.on('error', function(e) {
