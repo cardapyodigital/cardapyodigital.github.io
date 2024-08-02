@@ -1,11 +1,16 @@
-
-const clipboard = new ClipboardJS('.botao')
-
-clipboard.on('success', function(e) {
-    alert("copiado com sucesso, adicione ao pedido")
+	$(window).scroll(function() {
+  var scroll = $(window).scrollTop();
+  if (scroll <= 300) { 
+    $("#whatsapp").fadeOut();
+  } else {
+    $("#whatsapp").fadeIn();
+  }
 });
-
-clipboard.on('error', function(e) {
-    alert("Falha ao copiar")
+	$(window).scroll(function() {
+  var scroll = $(window).scrollTop();
+  if (scroll <= 3000) { 
+    $("#pedido_finalizado").fadeOut();
+  } else {
+    $("#pedido_finalizado").fadeIn();
+  }
 });
-
