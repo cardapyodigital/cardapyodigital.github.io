@@ -655,7 +655,7 @@ hr{
 	width: 45px;
 	height: 45px;
 	position: fixed;
-	margin-top: -5px;
+	margin-top: 90px;
 	border-radius: 50%;
 }
 .logo_whats_2 {
@@ -666,7 +666,7 @@ hr{
 	width: 38px;
 	height: 38px;
 	position: fixed;
-	margin-top: 110px;
+	margin-top: 170px;
 }
 .finalizar_pedido {
 	float: right;
@@ -675,14 +675,15 @@ hr{
 
 
 .icone_informacao img{
-	width: 50px;
-	height: 50px;
+	width: 39px;
+	height: 39px;
 	position: fixed;
-	margin-top: 90px;
+	margin-top: 170px;
+	z-index: 1;
 }
 .icone_informacao {
-	float: left;
-	margin-left: 14px;
+	float: right;
+	margin-right: 43px;
 }
 
 
