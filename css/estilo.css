@@ -576,6 +576,11 @@ hr{
 	width: 30% !important;	
 	}
 }
+.logo_index img{
+	width: 100%;
+	height:90px;
+	border-radius: 20px;
+}
 .borda_geral {
 	display: block;
 	margin: 0 auto;	
@@ -633,6 +638,19 @@ hr{
 	height: 90px;
 	background-color: #004AAD; 
 }
+.logo_whats_index img{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-top: 15px;
+}
+.entremcontato {
+	text-align: center;
+	font-size: .8em;
+	color: white;
+	margin-top: 2px;
+
+}
 .logo_whats_2 img{
 	width: 45px;
 	height: 45px;
@@ -654,6 +672,20 @@ hr{
 	float: right;
 	margin-right: 43px;
 }
+
+
+.icone_informacao img{
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	margin-top: 90px;
+}
+.icone_informacao {
+	float: left;
+	margin-left: 14px;
+}
+
+
 .qr_code img{
 	display: block;
 	width: 100%;
@@ -679,12 +711,6 @@ hr{
 	width: 85px;
 	height: 85px;	
 }
-.logo_index {
-	color: white;
-	font-size: 1.2em;
-	margin-left: 135px;
-	margin-top: -50px ;
-}
 .logo_cardapio {
 	color: #004AAD;
 	text-align: center;
@@ -699,10 +725,10 @@ hr{
 	width: 70%;
 }
 .botao {
-	width: 260px;
+	width: 95%;
 	margin: 0 auto;
 	text-align: center;
-	font-size: 1.5em !important;
+	font-size: 1.3em !important;
 	border-radius: 10px;
 	margin-top: 20px;
 	text-decoration: none;	
@@ -721,14 +747,12 @@ hr{
 }
 .barra_do_footer_index {
 	width: 100%;
-	height: 115px;
+	height: 100px;
 	background-color: #004AAD;	
 }
 .conteudo_do_footer_index {
 	color: white;
-	font-size: 1.3em;
 	text-align: center;
-	padding: 7px;
 }
 .titulo_index {
 	color: blue;
@@ -883,18 +907,11 @@ hr{
 /*Classses de cardapio-fim*/
 
 /*Classes de site-início*/
-/*
-* {
-   text-decoration: none;
-   margin: 0;
-   padding: 0;
-   font-family: Arial, Tahoma;
-   font-size: 100%
-}
-.clear {
-	clear: both;
-	overflow: hidden;
-	display: block
+
+.barra_do_reader {
+	width: 100%;
+	height: 130px;
+	background-color: #895512;
 }
 .fundo_do_footer {
 	position: absolute;
@@ -910,7 +927,7 @@ hr{
 footer.ajusta {
 	margin-bottom: auto;
 }
-.body {
+body {
 	background-color: black;
 }
 
@@ -928,17 +945,17 @@ h2, h3 {
 	text-align: center;
 }
 
-.corpo_site {
+.corpo {
 	width: 100%;
 	height: 100px;
 	background-color: white;
 }
-.conteudo_site {
+.conteudo {
 	max-width: 1280;	
 	width: 80%;
 	margin: 0 auto;	
 }
-.logo_site {
+.logo {
 	width: 150px !important;
 	height: 60px !important;
 	margin-top: 15px;
@@ -973,6 +990,7 @@ h2, h3 {
 .conteudo_2 {
 	font-size: 20px !important;
 	}
+
 .borda {
 	margin-left: 5px !important;
 	margin-right: 5px !important;
@@ -981,17 +999,27 @@ h2, h3 {
 }
 }
 @media(max-width: 980px){
-.logo_center {
-	height: 50px;
-	width: 70px;
+.logo_center img{
+	height: 80px;
+	width: 80px;
+	float: left;
+	margin-left: 20px;
 	margin: 0 auto;
+	}
 }
-}
+.logo_center img{
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-left: 30px;
+	margin-top: 18px;
+	}
+
 @media(max-width: 980px){
 .ajusta img {
 	margin-top: 22px;
-		height: 50px;
-	    width: 100px;
+		height: 60px;
+	    width: 60px;
 }
 }
 /*MENU HAMBURGER INÌCIO*/
@@ -1003,7 +1031,7 @@ h2, h3 {
 	height: 40px;	
 	float: left;
 	margin-left: 20px;
-	margin-top: -70px;
+	margin-top: 90px;
 	z-index: 10;
 }
 
@@ -1033,9 +1061,10 @@ h2, h3 {
 	font-weight: 300;
 	display: inline-block;
 	padding: 7px;
+	margin-right: 20px;
 }
 .menu a {
-	color: black;
+	color: white;
 	text-decoration: none;
 	font-size: .9em !important;
 	padding: 5px;
@@ -1084,8 +1113,8 @@ nav ul li a#cabecalho {
 	margin-top: 30px;
 }
 .grey_destaque a{
-	color: grey !important;
-	border-bottom: solid 1px grey;
+	color: white !important;
+	border-bottom: solid 1px white;
 }
 .grey_destaque_menu_retratil a{
 	color: grey !important;
@@ -1285,14 +1314,13 @@ height: auto;
 	margin-bottom: 7px;
 }
 	.grid-p-12_ajuste_11 {
-		width: 90% !important;		
+		width: 106% !important;		
 		font-size: .6em;
 		background-image:url("../imagens/callcenter_2.png") !important;
 		height: 200px !important;
-		margin-bottom: 20px;
 	}
 	.grid-p-12_ajuste_12 {
-		width: 90% !important;		
+		width: 106% !important;		
 		font-size: .6em;
 		background-image:url("../imagens/endereco_2.png") !important;
 		height: 200px !important;
@@ -1347,7 +1375,7 @@ height: auto;
 	color: white;
 	cursor: pointer;
 }
-.fundo_destaque {
+.fundo_verde_grama {
 	color: #FF9900;
 	background-color: #223A59;
 }
@@ -1362,7 +1390,7 @@ height: auto;
 	background-repeat: no-repeat;
 	height: 350px;
 	background-color: #D5E7F2;
-}*/
+}
 /*/FIM SEÇÃO DESTAQUE*/
 /**********************/
 /*INÍCIO 5 BANNERS*/
@@ -1440,8 +1468,7 @@ height: auto;
 */
 /*FIM 5 BANNERS*/
 /*CARROSSEL TCEROQUES INÍCIO*/
-
-/*section.xslider {
+section.xslider {
 	margin: 0 auto;
 	width: 100%;
 	height: auto;
@@ -1532,8 +1559,8 @@ height: auto;
 	height: 50px;
 	font-size: 40px;
 
-}/*
-/*Classes de site-fim*/
-/*Cores início*/
+}
 
-/*Cores fim*/
+
+
+/*Classes de site-fim*/

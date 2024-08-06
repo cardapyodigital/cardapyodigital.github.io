@@ -14,3 +14,12 @@
     $("#pedido_finalizado").fadeIn();
   }
 });
+
+  $(window).scroll(function() {
+  var scroll = $(window).scrollTop();
+  if (scroll >= 2800) { 
+    $("#icone_inf").fadeOut();
+  } else {
+    $("#icone_inf").fadeIn();
+  }
+});
