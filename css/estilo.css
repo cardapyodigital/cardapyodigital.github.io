@@ -70,7 +70,7 @@
 	margin-bottom: 10px;
 }
 hr.hr_classico{
-	border-color: black;
+	border-color: #895512;
 	width: 90%;
 	margin:0 auto;
 }
@@ -1305,7 +1305,7 @@ hr.hr_magia{
 }
 .barra_do_reader {
 	width: 100% !important;
-	height: 130px;
+	height: 100px;
 	background-color: #895512;
 }
 .ctrl_footer {
@@ -1314,10 +1314,10 @@ hr.hr_magia{
 	text-decoration: none;
 	margin-top: 15px;
 	margin-bottom: 8px;
-	color: black;
+	color:#895512;
 }
 .ctrl_footer a{
-	color: black;
+	color: #895512;
 }
 .grid_para_3 {
 	width: 33% !important;
@@ -1332,8 +1332,14 @@ hr.hr_magia{
 	margin: 0 auto;
 	border:solid 3px white;
 	border-radius: 20px;
-	padding: 10px;
+	padding: 5px;
 	margin-bottom: 10px;
+	margin-top: 20px;
+}
+.titulo_de_ler {
+	font-size: 1.4em;
+	color: white;
+	text-align: center;
 }
 .texto_justificado {
 	text-align: justify;
@@ -1345,22 +1351,23 @@ hr.hr_magia{
 }
 .texto_2 {
 	text-align: center;
-	font-size: .9em;
+	font-size: 1.3em;
+	color: white;
+}
+.texto_3 {
+	text-align: center;
+	font-size: 1.1em;
 	color: white;
 }
 /*Classes de site fim*/
-
-
-
-
 .fundo_do_footer {
 	position: absolute;
 	width: 100%;
-	height: 150px;
+	height: auto;
 	background-color: white;
 	text-decoration: none;
 	text-align: center;
-	color: black;
+	color: #895512;
 	font-size: 20px;
 	
 }
@@ -1370,9 +1377,9 @@ footer.ajusta {
 body {
 	background-color: #895512;
 }
-.body_green {
-	background-color: #468B28;
-}
+/*.body_green {
+	background-color: red;
+}*/
 
 .corpo {
 	width: 100%;
@@ -1423,7 +1430,7 @@ body {
 	height: 100px;
 	float: left;
 	margin-left: 30px;
-	margin-top: 18px;
+	margin-top: 14px;
 	}
 
 @media(max-width: 980px){
@@ -1439,7 +1446,7 @@ body {
 
 .hamburger1 img{
 	border-radius: 50%;
-	border: solid 2px black;
+	border: solid 2px #895512;
 	position: fixed !important;
 	width: 35px;
 	height: 35px;	
@@ -1485,8 +1492,8 @@ body {
 	transition: color 4s;
 }                                                                                                                                     l
 .menu a:hover {
-	color: grey;
-	border-bottom: solid 1px grey;	
+	color: #895512;
+	border-bottom: solid 1px #895512;	
 	transition: color 4s;
 }
 
@@ -1500,7 +1507,7 @@ nav#menuSm-1 ul {
     height: 270px;
     min-width: 200px;
     max-width: 320px;
-    background-color: black;
+    background-color: #895512;
     overflow: hidden;
     overflow-y: auto;
     z-index: 10;
@@ -1529,11 +1536,11 @@ nav ul li a#cabecalho {
 	border-bottom: solid 1px white;
 }
 .grey_destaque_menu_retratil a{
-	color: grey !important;
-	border-bottom: solid 1px grey !important;
+	color: #895512 !important;
+	border-bottom: solid 1px #895512 !important;
 }
 .ea a{
-	color: black;
+	color: #895512;
 	font-size: 15px;
 }
 .ea {
@@ -1545,7 +1552,7 @@ nav ul li a#cabecalho {
 	margin-right: 20px;
 }
 .logo_icones_posicao img:hover{
-	border:2px solid black;	
+	border:2px solid #895512;	
 	border-radius: 10%;
 }
 .logo_icon_superior img{
@@ -1604,7 +1611,7 @@ height: auto;
 }
 
 .nav-manual .nanual-btn, .nav-auto div {
-	border: solid 2px #5b5959;
+	border: solid 2px #895512;
 	padding-left: :25px;
 	padding-right: 25px;
 	padding-bottom: 2px;
@@ -1622,19 +1629,19 @@ height: auto;
 }
 
 #radio_1:checked ~ .nav-auto .auto-btn_1 {
-	background-color: grey;
+	background-color: #895512;
 }
 
 #radio_2:checked ~ .nav-auto .auto-btn_2 {
-	background-color: grey;
+	background-color: #895512;
 }
 
 #radio_3:checked ~ .nav-auto .auto-btn_3 {
-	background-color: grey;
+	background-color: #895512;
 }
 
 #radio_4:checked ~ .nav-auto .auto-btn_4{
-	background-color: grey;
+	background-color: #895512;
 }
 
 #radio_1:checked ~ .primeiro {
@@ -1651,5 +1658,129 @@ height: auto;
 	margin-left: -75%;
 }
 /*FIM SLIDES CARROSSEL*/
-
+/*ler início*/
+.envolve {
+	border: 1px solid;
+	padding: 1px;
+	width: 80%;
+	border-radius: 10px;
+	margin-bottom: 4px;
+	color: white;
+	text-align: center;
+}
+.comandos {
+	font-size: 1em;
+	border: 1px solid black;
+	width: 80%;
+	border-radius: 10px;
+	padding: 3px;
+}
+.comandos:hover {
+	background-color: black;
+	color: white;
+}
+.botao {
+	padding: 1px;
+	font-size: .8em;
+	margin-left: 5px;
+	float: right;
+	border-radius: 5px;
+	border-width: 1px;
+}
+.botao_ler_mais {
+	display: block;
+	width: 120px;
+	height: 40px;
+	margin: 0 auto;
+	padding: 1px;
+	font-size: 1em;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	border-radius: 5px;
+	border-width: 1px;
+	text-align: center;
+	background-color: #895512;
+	color: white;
+	border:solid 3px white;
+	border-radius: 20px;
+}
+.mais {
+	font-size: .9em;
+}
+#maiss_b {
+	display : none;
+}
+#maiss_1 {
+	display : none;
+}
+#maiss_2 {
+	display : none;
+}
+#maiss_3 {
+	display : none;
+}
+#maiss_4 {
+	display : none;
+}
+#maiss_5 {
+	display : none;
+}
+#maiss_6 {
+	display : none;
+}
+#maiss_7 {
+	display : none;
+}
+#maiss_8 {
+	display : none;
+}
+#maiss_9 {
+	display : none;
+}
+#maiss_10 {
+	display : none;
+}
+#maiss_11 {
+	display : none;
+}
+#maiss_12 {
+	display : none;
+}
+#maiss_13 {
+	display : none;
+}
+#maiss_14 {
+	display : none;
+}
+.ceu_azul, .ceu_azul a {
+	color: #66ccff;	
+}
+.ceu_azul_bg {
+	background-color:#66ccff;	
+}
+.azul_claro, .azul_claro a {
+	color: #3385ff;
+}
+.azul_medio, .azul_medio a {
+	color:  #1a75ff;
+}
+.azul_escuro, .azul_escuro a {
+	color: #0047b3
+}
+.azul_bg {
+	background-color: #c0deef;
+}
+.azul_escuro_bg {
+	background-color: #0000b3;
+}
+.branco_bg {
+	background-color: #fff;
+}
+.preto_bg {
+	background-color: #000;
+}
+.preto, .preto a {
+	color: #000;
+}
+/*ler fim*/
 /*Classes de site-fim*/
