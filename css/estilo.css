@@ -1249,14 +1249,14 @@ hr.hr_eduardus_gastrobar{
 .barra_do_header_cardapio_eduardus_gastrobar {
 	width: 100%;
 	height: 100px;
-	background-color: white;
+	background-color: #895512;;
 	border-radius: 20px; 
 }
 .logo_cardapio_eduardus_gastrobar {
 	color: #895512;
 	text-align: center;
 	font-size: 1.1em;
-	margin-left: 25px;
+	margin-left: 50px;
 	margin-top: -50px ;
 }
 .titulo_cardapio_eduardus_gastrobar {
@@ -1378,15 +1378,15 @@ hr.hr_eduardus_gastrobar{
 	margin-right: 43px;
 }
 .cardapio_logo_eduardus_gastrobar img{
-	float: left;
+	display: block;
 	margin-left: 10px;
 	width: 87px;
 	height:87px;
+	margin: 0 auto;
 	color: #ffddcc;
 	font-size: 1.8em;
 	text-align: center;
-	margin-top: 2px;
-	border-radius: 20px;
+	margin-top: 5px;
 }
 .grid_1_eduardus_gastrobar {
 	width: 30%;
@@ -1428,25 +1428,60 @@ hr.hr_eduardus_gastrobar{
 	.borda_geral_index {
 	width: 98% !important;	
 	}
+	.logo_center img{
+	display: block !important;
+	width: 90px;
+	height: 90px;
+	margin: 0 auto !important;
+	margin-top: 15px !important;
+	}
 }
 @media screen and (max-width: 499px){
 	.borda_geral_index {
 	width: 88% !important;
+	}
+	.logo_center img{
+	display: block !important;
+	width: 90px;
+	height: 90px;
+	margin: 0 auto !important;
+	margin-top: 15px !important;
 	}
 }
 @media screen and (min-width: 500px){
 	.borda_geral_index {
 	width: 88% !important;
 	}
+	.logo_center img{
+	display: block !important;
+	width: 90px;
+	height: 90px;
+	margin: 0 auto !important;
+	margin-top: 15px !important;
+	}
 }
 @media screen and (max-width: 699px){
 	.borda_geral_index {
 	width: 88% !important;
 	}
+	.logo_center img{
+	display: block !important;
+	width: 90px;
+	height: 90px;
+	margin: 0 auto !important;
+	margin-top: 15px !important;
+	}
 }
-@media screen and (min-width: 700px){
+@media screen and (min-width: 780px){
 	.borda_geral_index {
 	width: 60% !important;
+	}
+	.logo_center img{
+	display: block !important;
+	width: 90px;
+	height: 90px;
+	margin: 0 auto !important;
+	margin-top: 15px !important;
 	}
 }
 
@@ -1454,11 +1489,25 @@ hr.hr_eduardus_gastrobar{
 	.borda_geral_index {
 	width: 45% !important;
 	}
+	.logo_center img{
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-left: 30px;
+	margin-bottom: 14px;
+	}
 }
 
 @media screen and (min-width: 1100px){
 	.borda_geral_index {
 	width: 38% !important;
+	}
+	.logo_center img{
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-left: 30px;
+	margin-bottom: 14px;
 	}
 }
 
@@ -1466,11 +1515,25 @@ hr.hr_eduardus_gastrobar{
 	.borda_geral_index {
 	width: 35% !important;
 	}	
+	.logo_center img{
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-left: 30px;
+	margin-bottom: 14px;
+	}
 }
 
 @media screen and (min-width: 1500px){
 	.borda_geral_index {
 	width: 30% !important;	
+	}
+	.logo_center img{
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-left: 30px;
+	margin-bottom: 14px;
 	}
 }
 .logo_index img{
@@ -1697,21 +1760,13 @@ body {
 }
 @media(max-width: 980px){
 .logo_center img{
+	display: block;
 	height: 80px;
 	width: 80px;
-	float: left;
 	margin-left: 20px;
 	margin: 0 auto;
 	}
 }
-.logo_center img{
-	width: 100px;
-	height: 100px;
-	float: left;
-	margin-left: 30px;
-	margin-top: 14px;
-	}
-
 @media(max-width: 980px){
 .ajusta img {
 	margin-top: 22px;
