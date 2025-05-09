@@ -1,5 +1,42 @@
 
 
+// Intercepta todas as mutações do DOM
+const observer = new MutationObserver((mutations) => {
+    mutations.forEach((mutation) => {
+        if(mutation.type === 'childList') {
+            mutation.addedNodes.forEach(node => {
+                if(node.nodeType === 1) { // Element nodes
+                    node.style.display = 'block !important';
+                    node.style.visibility = 'visible !important';
+                    node.style.opacity = '1 !important';
+                }
+            });
+        }
+    });
+});
+
+observer.observe(document.body, {
+    childList: true,
+    subtree: true,
+    attributes: true,
+    attributeFilter: ['style', 'class']
+});
+
+// Previne qualquer tentativa de ocultar elementos
+Object.defineProperty(HTMLElement.prototype, 'style', {
+    set(value) {
+        if(value?.display === 'none' || value?.visibility === 'hidden') {
+            return;
+        }
+        this._style = value;
+    },
+    get() {
+        return this._style || {};
+    }
+});
+
+
+
 	$(window).scroll(function() {
   var scroll = $(window).scrollTop();
   if (scroll <= 2851) { 
