@@ -5,6 +5,11 @@
    font-family: Arial, Tahoma;
    font-size: 100%
 }
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
 /*cardapio clássico inicio*/
 .clear_classico {
 	clear: both;
@@ -26,7 +31,7 @@
 	width: 88% !important;
 	}
 }
-@media screen and (max-width: 699px){
+@media screen and (max-widt: 699px){
 	.borda_geral_classico {
 	width: 88% !important;
 	}
@@ -212,7 +217,7 @@ hr.hr_classico{
 	width: 39px;
 	height: 39px;
 	position: fixed;
-	margin-top: 145px;
+	margin-top: 200px;
 	z-index: 1;
 }
 .icone_informacao_classico {
@@ -223,7 +228,7 @@ hr.hr_classico{
 	width: 39px;
 	height: 39px;
 	position: fixed;
-	margin-top: 255px;
+	margin-top: 300px;
 }
 .logo_whats_classico {
 	float: right;
@@ -490,7 +495,7 @@ hr.hr_copacabana{
 	width: 39px;
 	height: 39px;
 	position: fixed;
-	margin-top: 145px;
+	margin-top: 200px;
 	z-index: 1;
 }
 .icone_informacao_copacabana {
@@ -506,9 +511,6 @@ hr.hr_copacabana{
 .logo_whats_copacabana {
 	float: right;
 	margin-right: 43px;
-}
-.texto {
-	font-size: 1em;
 }
 .cardapio_logo_copacabana img{
 	float: left;
@@ -788,7 +790,7 @@ hr.hr_sport{
 	width: 39px;
 	height: 39px;
 	position: fixed;
-	margin-top: 145px;
+	margin-top: 200px;
 	z-index: 1;
 }
 .icone_informacao_sport {
@@ -799,7 +801,7 @@ hr.hr_sport{
 	width: 39px;
 	height: 39px;
 	position: fixed;
-	margin-top: 255px;
+	margin-top: 300px;
 }
 .logo_whats_sport {
 	float: right;
@@ -1062,7 +1064,7 @@ hr.hr_magia{
 	width: 39px;
 	height: 39px;
 	position: fixed;
-	margin-top: 145px;
+	margin-top: 200px;
 }
 .finalizar_pedido_magia {
 	float: right;
@@ -1083,7 +1085,7 @@ hr.hr_magia{
 	width: 39px;
 	height: 39px;
 	position: fixed;
-	margin-top: 255px;
+	margin-top: 300px;
 }
 .logo_whats_magia {
 	float: right;
