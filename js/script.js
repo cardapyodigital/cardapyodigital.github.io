@@ -1,4 +1,4 @@
-	$(window).scroll(function() {
+/*	$(window).scroll(function() {
   var scroll = $(window).scrollTop();
   if (scroll <= 2851) { 
     $("#whatsapp").fadeOut();
@@ -22,7 +22,7 @@
   } else {
     $("#icone_inf").fadeIn();
   }
-});
+});*/
 
 function 
 leiaMais_b() {
