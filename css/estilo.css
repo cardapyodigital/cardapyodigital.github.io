@@ -52,7 +52,7 @@ body {
 	width: 88% !important;
 	}
 }
-@media screen and (max-widt: 699px){
+@media screen and (max-width: 699px){
 	.borda_geral_classico {
 	width: 88% !important;
 	}
