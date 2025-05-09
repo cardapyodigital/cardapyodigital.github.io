@@ -10,6 +10,27 @@ body {
     max-width: 100%;
     overflow-x: hidden;
 }
+/* Aplica aos containers principais de cada modelo */
+.borda_geral_copacabana,
+.borda_geral_sport, 
+.borda_geral_classico,
+.borda_geral_magia {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+}
+.logo_whats_copacabana,
+.finalizar_pedido_copacabana,
+.icone_informacao_copacabana {
+    position: fixed;
+    z-index: 1000;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform; /* Otimiza para animações */
+}
 /*cardapio clássico inicio*/
 .clear_classico {
 	clear: both;
