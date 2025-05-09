@@ -5,22 +5,22 @@
    font-family: Arial, Tahoma;
    font-size: 100%
 }
+
+
 body {
-    width: 100%;
-    max-width: 100%;
-    overflow-x: hidden;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
-/* Aplica aos containers principais de cada modelo */
-.borda_geral_copacabana,
-.borda_geral_sport, 
+
+/* Corrige problemas específicos de camadas */
+.borda_geral_copacabana, 
+.borda_geral_sport,
 .borda_geral_classico,
 .borda_geral_magia {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    -webkit-perspective: 1000;
-    perspective: 1000;
+  contain: content;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
 }
 .logo_whats_copacabana,
 .finalizar_pedido_copacabana,
