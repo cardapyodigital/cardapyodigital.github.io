@@ -8,7 +8,8 @@
 body {
     width: 100%;
     max-width: 100%;
-    overflow-x: hidden;
+    -webkit-text-size-adjust: 100%; /* Evita zoom automático */
+    overflow-x: hidden; /* Impede scroll horizontal indesejado */
 }
 
 /*cardapio clássico inicio*/
