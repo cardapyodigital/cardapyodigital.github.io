@@ -724,5 +724,15 @@
 			<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 			<script src="../js/script.js"></script>
 
+			<script type="text/javascript">
+				// Corrige o bug de desaparecimento no Google App
+				if (navigator.userAgent.includes('GoogleApp')) {
+		   		setTimeout(() => {
+		        document.body.style.opacity = '0.99'; // Truque mágico
+		        setTimeout(() => { document.body.style.opacity = '1'; }, 50);
+		   			}, 300);
+				}
+			</script>
+
   </div>
 </html>

@@ -2,7 +2,7 @@
 <html>
 	<head>
 
-		<title>Mestrekuka</title>
+		<title>Mestrekukateste</title>
 
 		<meta charset="utf-8">	
 			<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
@@ -53,6 +53,15 @@
 			</div>				
 		</footer>
 	</body> 
+	<script type="text/javascript">
+		// Corrige o bug de desaparecimento no Google App
+		if (navigator.userAgent.includes('GoogleApp')) {
+   		setTimeout(() => {
+        document.body.style.opacity = '0.99'; // Truque mágico
+        setTimeout(() => { document.body.style.opacity = '1'; }, 50);
+   			}, 300);
+		}
+	</script>
 </div>
 		
 </html>

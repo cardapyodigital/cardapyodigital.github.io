@@ -1,11 +1,3 @@
-window.addEventListener("load", function() {
-    setTimeout(function() {
-        document.body.style.opacity = '0.99'; // Truque para forçar repaint
-        setTimeout(function() {
-            document.body.style.opacity = '1';
-        }, 50);
-    }, 100);
-});
 
 
 
