@@ -11,7 +11,11 @@ body {
     -webkit-text-size-adjust: 100%; /* Evita zoom automático */
     overflow-x: hidden; /* Impede scroll horizontal indesejado */
 }
-
+/* Força repaint no conteúdo principal */
+#content { /* Substitua #content pelo container do seu conteúdo */
+    transform: translateZ(0);
+    backface-visibility: hidden;
+}
 /*cardapio clássico inicio*/
 .clear_classico {
 	clear: both;
