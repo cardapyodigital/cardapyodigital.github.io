@@ -1284,6 +1284,73 @@ hr.hr_magia{
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+
+
+
+/*ajuste*/
+@media screen and (min-width: 250px){
+	.borda_geral_eduardus_gastrobar_ajuste {
+	width: 98% !important;	
+	}
+}
+@media screen and (max-width: 499px){
+	.borda_geral_eduardus_gastrobar_ajuste {
+	width: 88% !important;
+	}
+}
+@media screen and (min-width: 500px){
+	.borda_geral_eduardus_gastrobar_ajuste {
+	width: 88% !important;
+	}
+}
+@media screen and (max-width: 699px){
+	.borda_geral_eduardus_gastrobar_ajuste {
+	width: 88% !important;
+	}
+}
+@media screen and (min-width: 700px){
+	.borda_geral_eduardus_gastrobar__ajuste {
+	width: 60% !important;
+	}
+}
+
+@media screen and (min-width: 900px){
+	.borda_geral_eduardus_gastrobar_ajuste {
+	width: 90% !important;
+	}
+}
+
+@media screen and (min-width: 1100px){
+	.borda_geral_eduardus_gastrobar_ajuste {
+	width: 88% !important;
+	}
+}
+
+@media screen and (min-width: 1300px){
+	.borda_geral_eduardus_gastrobar_ajuste {
+	width: 86% !important;
+	}	
+}
+
+@media screen and (min-width: 1500px){
+	.borda_geral_eduardus_gastrobar_ajuste {
+	width: 84% !important;	
+	}
+}
+.borda_geral_eduardus_gastrobar_ajuste {
+	display: block;
+	margin: 0 auto;	
+	border:solid 3px white;
+	padding: 20px;
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/*ajuste*/
+
+
+
+
 hr.hr_eduardus_gastrobar{
 	border-color: #895512;
 	width: 90%;
@@ -1575,8 +1642,8 @@ hr.hr_eduardus_gastrobar{
 	width: 100px;
 	height: 100px;
 	float: left;
-	margin-left: 30px;
-	margin-bottom: 14px;
+	margin-left: 30px !important;
+	margin-bottom: 14px !important;
 	}
 }
 
@@ -1588,7 +1655,7 @@ hr.hr_eduardus_gastrobar{
 	width: 100px;
 	height: 100px;
 	float: left;
-	margin-left: 30px;
+	margin-left: 33px;
 	margin-bottom: 14px;
 	}
 }
