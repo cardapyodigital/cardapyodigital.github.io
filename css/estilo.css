@@ -1372,6 +1372,14 @@ hr.hr_eduardus_gastrobar{
 	width: 180px;
 	height: 180px;
 }
+
+.galeria_eduardus_gastrobar_2 img {
+	display: block !important;
+	width: 100%;
+	height: auto;
+
+}
+
 .texto_cardapio_eduardus_gastrobar {
 	font-size: .6em;
 	font-style: italic;
