@@ -1858,6 +1858,11 @@ hr.hr_eduardus_gastrobar{
 	font-size: 1.1em;
 	color: white;
 }
+.texto_4 {
+	text-align: center;
+	font-size: 1.2em;
+	color: white;
+}
 /*Classes de site fim*/
 .fundo_do_footer {
 	position: absolute;
