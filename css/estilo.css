@@ -1375,8 +1375,8 @@ hr.hr_eduardus_gastrobar{
 
 .galeria_eduardus_gastrobar_2 img {
 	display: block !important;
-	width: 100%;
-	height: auto;
+	width: 100% !important;
+	height: auto !important;
 
 }
 
